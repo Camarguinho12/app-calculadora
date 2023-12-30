@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<title>Calculadora</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+	</head>
+
+  <body style="background: #D9D9D9">
+
+    <div class="container">
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <br />
+
+          <div class="calculadora">
+            <input id="display" type="text" class="form-control resultado" placeholder="0" disabled="disabled" />
+            
+            <div class="row">
+              <button id="clear" type="button" class="btn btn-dark btn-lg clear font-weight-light">C</button>
+              <button id="divisao" type="button" class="btn btn-dark btn-lg font-weight-light">/</button>
+              <button id="multiplicacao" type="button" class="btn btn-dark btn-lg font-weight-light">x</button>
+            </div>
+
+            <div class="row">
+              <button id="sete" type="button" class="btn btn-dark btn-lg font-weight-light">7</button>
+              <button id="oito" type="button" class="btn btn-dark btn-lg font-weight-light">8</button>
+              <button id="nove" type="button" class="btn btn-dark btn-lg font-weight-light">9</button>
+              <button id="menos" type="button" class="btn btn-dark btn-lg font-weight-light">-</button>
+            </div>
+            
+            <div class="row">
+              <button id="quatro" type="button" class="btn btn-dark btn-lg font-weight-light">4</button>
+              <button id="cinco" type="button" class="btn btn-dark btn-lg font-weight-light">5</button>
+              <button id="seis" type="button" class="btn btn-dark btn-lg font-weight-light">6</button>
+              <button id="mais" type="button" class="btn btn-dark btn-lg font-weight-light">+</button>
+            </div>
+
+            <div class="row">
+              <button id="um" type="button" class="btn btn-dark btn-lg font-weight-light">1</button>
+              <button id="dois" type="button" class="btn btn-dark btn-lg font-weight-light">2</button>
+              <button id="tres" type="button" class="btn btn-dark btn-lg font-weight-light">3</button>
+              <button id="igual" type="button" class="btn btn-dark btn-lg enter">=</button>
+            </div>
+
+            <div class="row" style="margin-top: -60px">
+              <button id="zero" type="button" class="btn btn-dark zero btn-lg font-weight-light">0</button>
+              <button id="ponto" type="button" class="btn btn-dark btn-lg font-weight-light">.</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>	
+
+</html>
