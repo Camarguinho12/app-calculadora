@@ -21,8 +21,7 @@ function calcular(tipo, valor){
                 display.value = '';
             }else{
                 const resultado = eval(display.value);
-
-                display.value = resultado;
+                display.value = resultado; 
             }
         }
     }else if(tipo.toLowerCase() === 'valor'){
